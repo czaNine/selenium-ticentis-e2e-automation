@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <test-scenario name="Tricentis - Automobile Insurance Quotation">
+        <summary>
+            <info desc="11/29/2024 11:00 AM" name="Time Started"/>
+            <info desc="11/29/2024 11:00 AM" name="Time Ended"/>
+            <info desc="0.62 mins" name="Time Elapsed"/>
+            <info desc="chrome 131.0.6778.86" name="Browser"/>
+        </summary>
+        <test-case name="End to end testing for Vehicle Insurance Application">
+            <test-step name="Prerequisite: Navigate to Open URL">
+                <report desc="Navigate to https://sampleapp.tricentis.com/101/" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Validate Reference Tabs">
+                <report desc="[Automobile Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Truck Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Motorcycle Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Camper Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Automobile Tab">
+                <report desc="[Automobile Link] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Automobile Link] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Verify Reference Tabs">
+                <report desc="[Automobile Insurance Element] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Enter Vehicle Data Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Enter Insurant Data Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Enter Product Data Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Select Price Option Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Send Quote Link] Verify that displayed equals true" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Populate Enter Vehicle Data Form">
+                <report desc="[Make ListBox] Select 'Audi'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Engine Performance TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Engine Performance TextBox] Type &quot;1600&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Date of Manufacture TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Date of Manufacture TextBox] Type &quot;11/24/1987&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Number of Seats ListBox] Select '5'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Number of Seats ListBox] Select 'Diesel'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[List Price TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[List Price TextBox] Type &quot;90000&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[License Plate Number TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[License Plate Number TextBox] Type &quot;AVO 1234&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Annual Mileage TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Annual Mileage TextBox] Type &quot;85000&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Next">
+                <report desc="[Next Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Next Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Populate Enter Insurant Data Form">
+                <report desc="[First Name TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[First Name TextBox] Type &quot;Erza&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Last Name TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Last Name TextBox] Type &quot;Scarlet&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Date of Birth TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Date of Birth TextBox] Type &quot;09/07/2000&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Gender RadioButton] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Gender RadioButton] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Street Address TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Street Address TextBox] Type &quot;123 St. Test&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Country ListBox] Select 'Philippines'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Zip Code TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Zip Code TextBox] Type &quot;3023&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[City TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[City TextBox] Type &quot;Manila&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Occupation ListBox] Select 'Employee'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Speeding CheckBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Speeding CheckBox] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Skydiving CheckBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Skydiving CheckBox] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Next">
+                <report desc="[Next Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Next Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Populate Enter Product Data Form">
+                <report desc="[Start Date TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Start Date TextBox] Type &quot;11/27/2026&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Insurance Sum ListBox] Select '5.000.000,00'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Merit Rating ListBox] Select 'Bonus 1'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Damage Insurance ListBox] Select 'Full Coverage'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Legal Defense Insurance CheckBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Legal Defense Insurance CheckBox] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Courtesy Car ListBox] Select 'Yes'" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Next">
+                <report desc="[Next Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Next Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Populate Select Price Option">
+                <report desc="[Ultimate RadioButton] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Ultimate RadioButton] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Next">
+                <report desc="[Next Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Next Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Populate Send Quote Form">
+                <report desc="[Email TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Email TextBox] Type &quot;erza.scarlet@company.com&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Username TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Username TextBox] Type &quot;erza.scarlet09&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Password TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Password TextBox] Type &quot;P@ssword123!&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Confirm Password TextBox] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Confirm Password TextBox] Type &quot;P@ssword123!&quot;" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click Send">
+                <report desc="[Send Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[Send Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Validate Email Success">
+                <report desc="[Sending Email Success Element] Verify that text equals Sending e-mail success!" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+            <test-step name="Click OK Button">
+                <report desc="[OK Button] Wait for element to display (10)" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+                <report desc="[OK Button] Click element" status="Passed" timestamp="11/29/2024 11:00 AM"/>
+            </test-step>
+        </test-case>
+    </test-scenario>
+</root>
